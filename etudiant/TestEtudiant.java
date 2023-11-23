@@ -2,7 +2,8 @@ package etudiant;
 
 public class TestEtudiant {
 	public static void main(String[] args) {
-		Etudiant quentin = new Etudiant("Quentin");
+		String nom = args[0];
+		Etudiant quentin = new Etudiant(nom);
 		quentin.travailler();
 		quentin.seReposer();
 	}
