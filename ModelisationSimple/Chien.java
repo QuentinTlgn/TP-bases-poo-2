@@ -1,9 +1,8 @@
 package ModelisationSimple;
 
 public class Chien {
-	public String race = "Labrador";
-	public Integer age = 8;
-	public String couleur = "Marron";
-	
+	private String race = "Labrador";
+	private Integer age = 8;
+	private String couleur = "Marron";
 	
 }
